@@ -3,6 +3,7 @@ body{
     padding-top: 100px;
     padding-left: 400px;
     padding-right: 400px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nav{
@@ -31,5 +32,5 @@ body{
     font-size: 40px;
 }
 .title{
-    font-size: 120px;
+    font-size: 100px;
 }
