@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,20 +13,22 @@
 </head>
 <body>
     <nav class="nav">
-        <div class="navbotton">app</div>
-        <div class="navbotton">blog</div>
-        <div class="navbotton">shop</div>
-        <div class="navbotton">note</div>
-        <div class="navbotton">game</div>
+        <a href=""  class="navbotton">app</a>
+        <a href=""  class="navbotton">blog</a>
+        <a href=""  class="navbotton">shop</a>
+        <a href=""  class="navbotton">note</a>
+        <a href=""  class="navbotton">game</a>
     </nav>
-    <div class="carrots">
-        <div class="carrot"><</div>
-        <div class="middlePicture">
-            <div class="title">Tiny App</div>
-            <div class="subTitle">Coming soon</div>
+    <main>
+        <div class="carrots">
+            <button id="left-button" class="carrot"><</button>
+            <div class="middlePicture">
+                <div  class="title">Tiny <span id="app-name">App</span></div>
+                <div class="subTitle">Coming soon</div>
+            </div>
+            <button id="right-button" class="carrot">></button>
         </div>
-        <div class="carrot">></div>
-    </div>
+    </main>
 
 </body>
 </html>
